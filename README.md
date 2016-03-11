@@ -1,6 +1,6 @@
 # symbol
 
-A library for Dart developers. It is awesome.
+A set of Symbol utilities for Dart.
 
 ## Usage
 
@@ -9,11 +9,12 @@ A simple usage example:
     import 'package:symbol/symbol.dart';
 
     main() {
-      var awesome = new Awesome();
+      Symbol s = makeSymbol(prefix: 'foo');
+      print(s); // prints 'foo0'
     }
 
 ## Features and bugs
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
-[tracker]: http://example.com/issues/replaceme
+[tracker]: https://github.com/fluidic/symbol/issues

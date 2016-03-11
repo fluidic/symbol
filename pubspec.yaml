@@ -1,8 +1,8 @@
 name: symbol
-description: A starting point for Dart libraries or applications.
-version: 0.0.1
-#author: Your Name <email@example.com>
-#homepage: https://www.example.com
+description: A set of Symbol utilities for Dart.
+version: 0.1.0
+author: Fluidic Team <dev@fluidic.io>
+homepage: https://github.com/fluidic/symbol
 
 environment:
   sdk: '>=1.0.0 <2.0.0'
